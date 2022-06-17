@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SignupView.swift
 //  Tasker
 //
 //  Created by Deka Primatio on 16/06/22.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SignupView: View {
     var body: some View {
-        LoginView()
+        Text("Sign Up View")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SignupView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SignupView()
     }
 }
