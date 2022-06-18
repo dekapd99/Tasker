@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct SignupView: View {
+    
+    @State var firstName = ""
+    @State var lastName = ""
+    @State var email = ""
+    @State var password = ""
+    @State var confirmPassword = ""
+    
+    @Environment(\.presentationMode) var mode
+    
     var body: some View {
-        Text("Sign Up View")
+        
+        ZStack {
+            
+            BackgroundGradientView()
+            
+            VStack {
+                
+            }
+            
+        } // Batas ZStack
+        
     }
 }
 
