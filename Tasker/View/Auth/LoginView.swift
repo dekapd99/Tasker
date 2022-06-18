@@ -47,8 +47,23 @@ struct LoginView: View {
                     AuthenticateButtonView(text: "Sign In")
                         .padding(.top)
                 }
-
+                
+                NavigationLink(
+                    destination: SignupView()
+                        .navigationBarHidden(true),
+                    label: {
+                        HStack {
+                            Text("Don't have an account ?")
+                            Text("Sign Up")
+                                .font(.system(size: 15, weight: .bold))
+                        } // Batas HStack
+                        .foregroundColor(.white)
+                    }
+                )
+                .padding()
+                
             } // Batas VStack 0
+            .padding(.top, -44)
         } // Batas ZStack
     }
 }

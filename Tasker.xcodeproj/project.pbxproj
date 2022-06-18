@@ -20,6 +20,7 @@
 		AB86E855285B7CB40016D165 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E854285B7CB40016D165 /* LogoView.swift */; };
 		AB86E857285B834D0016D165 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E856285B834D0016D165 /* CustomTextField.swift */; };
 		AB86E85A285B87C40016D165 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E859285B87C40016D165 /* EmailTextField.swift */; };
+		ABD819DE285E178E0075F5EF /* UserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD819DD285E178E0075F5EF /* UserTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		AB86E854285B7CB40016D165 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		AB86E856285B834D0016D165 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		AB86E859285B87C40016D165 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		ABD819DD285E178E0075F5EF /* UserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				AB86E859285B87C40016D165 /* EmailTextField.swift */,
 				AB6701E2285B8B2D00892057 /* CustomSecureField.swift */,
 				AB6701E4285B8C8200892057 /* PasswordSecureField.swift */,
+				ABD819DD285E178E0075F5EF /* UserTextField.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				AB86E85A285B87C40016D165 /* EmailTextField.swift in Sources */,
 				AB86E850285B79AB0016D165 /* SignupView.swift in Sources */,
+				ABD819DE285E178E0075F5EF /* UserTextField.swift in Sources */,
 				AB86E855285B7CB40016D165 /* LogoView.swift in Sources */,
 				AB86E84C285B78C40016D165 /* LoginView.swift in Sources */,
 				AB6701E5285B8C8200892057 /* PasswordSecureField.swift in Sources */,
