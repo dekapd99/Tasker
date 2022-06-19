@@ -20,6 +20,7 @@
 		AB86E855285B7CB40016D165 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E854285B7CB40016D165 /* LogoView.swift */; };
 		AB86E857285B834D0016D165 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E856285B834D0016D165 /* CustomTextField.swift */; };
 		AB86E85A285B87C40016D165 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E859285B87C40016D165 /* EmailTextField.swift */; };
+		ABA0F331285F7A89006AF604 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA0F330285F7A89006AF604 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		AB86E854285B7CB40016D165 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		AB86E856285B834D0016D165 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		AB86E859285B87C40016D165 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		ABA0F330285F7A89006AF604 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		AB86E82E285B62C10016D165 = {
 			isa = PBXGroup;
 			children = (
+				ABA0F330285F7A89006AF604 /* GoogleService-Info.plist */,
 				AB86E839285B62C10016D165 /* Tasker */,
 				AB86E838285B62C10016D165 /* Products */,
 			);
@@ -202,6 +205,7 @@
 			files = (
 				AB86E842285B62C20016D165 /* Preview Assets.xcassets in Resources */,
 				AB86E83F285B62C20016D165 /* Assets.xcassets in Resources */,
+				ABA0F331285F7A89006AF604 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
