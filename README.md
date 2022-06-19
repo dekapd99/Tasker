@@ -21,7 +21,9 @@ git clone https://github.com/dekapd99/iNews.git
 
 2. Jika mendownload .zip, Extract zip tersebut dan Jalankan file dengan ekstensi .html menggunakan browser atau live server.
 3. Jika sudah silahkan buka Project di Xcode
-4. Build & Run
+4. Build Setting > Always Embed Swift Standard Libraries (Set to YES) & Build Active Architure Only (Set to YES)
+5. Firebase Swift Packages Used (Firebase Analytics, Firebase Analytics Swift, Firebase Auth, Firebase Crashlytics, Firebase Database, Firebase Database Swift, Firebase Firestore, Firebase Firestore Swift, Firebase Functions, Firebase Storage)
+6. Build & Run
 
 <!-- What Kind of License? -->
 ## License
