@@ -14,44 +14,62 @@ struct LoginView: View {
     
     var body: some View {
         
-        ZStack {
-            BackgroundGradientView()
-            
-            VStack {
-                LogoView()
-                    .padding(.bottom, 25)
+        NavigationView {
+            ZStack {
+                BackgroundGradientView()
                 
-                VStack(spacing: 20) {
-                    EmailTextField(text: $email)
-                    PasswordSecureField(text: $password, placeholder: "Password")
-                } // Batas VStack 1
-                .padding(.horizontal, 20)
-                
-                HStack {
-                    Spacer()
+                VStack {
+                    LogoView()
+                        .padding(.bottom, 25)
                     
+                    VStack(spacing: 20) {
+                        EmailTextField(text: $email)
+                        PasswordSecureField(text: $password, placeholder: "Password")
+                    } // Batas VStack 1
+                    .padding(.horizontal, 20)
+                    
+                    HStack {
+                        Spacer()
+                        
+                        Button {
+                            // TODO: Forgot Password Action
+                        } label: {
+                            Text("Forgot Password ?")
+                                .foregroundColor(.white)
+                                .font(.system(size: 15, weight: .bold))
+                                .padding([.top, .trailing], 20)
+                        }
+                    } // Batas HStack
+
                     Button {
-                        // TODO: Forgot Password Action
+                        // TODO: Sign In Action
+                        
                     } label: {
-                        Text("Forgot Password ?")
-                            .foregroundColor(.white)
-                            .font(.system(size: 15, weight: .bold))
-                            .padding([.top, .trailing], 20)
+                        AuthenticateButtonView(text: "Sign In")
+                            .padding(.top)
                     }
-                } // Batas HStack
-
-                Button {
-                    // TODO: Sign In Action
                     
-                } label: {
-                    AuthenticateButtonView(text: "Sign In")
-                        .padding(.top)
-                }
-
-            } // Batas VStack 0
-        } // Batas ZStack
-    }
-}
+                    NavigationLink(
+                        destination: SignupView()
+                            .navigationBarHidden(true),
+                        label: {
+                            HStack {
+                                Text("Don't have an account ?")
+                                    .font(.system(size: 15))
+                                Text("Sign Up")
+                                    .font(.system(size: 15, weight: .semibold))
+                            } // Batas HStack
+                            .foregroundColor(.white)
+                        }
+                    )
+                    .padding()
+                    
+                } // Batas VStack 0
+                .padding(.top, -44)
+            }// Batas ZStack
+        } // Batas NavigationView
+    } // Batas Body
+} // Batas Struct
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
