@@ -20,7 +20,7 @@ struct TODO: Identifiable, Decodable {
     var completed: Bool
     var documentID: String? = ""
     
-    // TODO: Buat Fungsi get todo type
+    // Buat Fungsi get todo type
     func getType() -> SelectedButton {
         if TODOType == "Groceries" {
             return .groceries
