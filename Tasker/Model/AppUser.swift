@@ -16,7 +16,7 @@ struct AppUser: Identifiable, Decodable {
     let lastName: String
     let email: String
     
-    // TODO: Buat Session untuk AuthViewModel
+    // Buat Session untuk AuthViewModel
     // Akses AuthViewModel via userSession uid dari id tiap user
     var isCurrentUser: Bool {
         return AuthViewModel.shared.userSession?.uid == id

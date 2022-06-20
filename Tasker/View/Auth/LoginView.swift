@@ -46,7 +46,6 @@ struct LoginView: View {
                     Button {
                         // TODO: Sign In Action
                         viewModel.login(withEmail: email, password: password)
-                        
                     } label: {
                         AuthenticateButtonView(text: "Sign In")
                             .padding(.top)

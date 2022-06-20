@@ -11,16 +11,15 @@ struct DashboardView: View {
     
     let user: AppUser
     
-    
-    
     var body: some View {
         VStack {
+            Text("DashboardView")
             Button {
                 AuthViewModel.shared.signout()
             } label: {
                 Text("Log Out")
             }
-
+            .padding()
         }
     }
 }

@@ -13,12 +13,12 @@ struct ContentView: View {
     @EnvironmentObject var viewModel: AuthViewModel
     
     var body: some View {
-        
+
         Group {
             // Single Time Login
             // Menyimpan Session agar ketika Aplikasi di Close, User tetep login
             if viewModel.userSession == nil {
-                LogoView()
+                LoginView()
             } else {
                 if let user = viewModel.currentUser {
                     DashboardView(user: user)
@@ -31,5 +31,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(AuthViewModel.shared)
     }
 }
