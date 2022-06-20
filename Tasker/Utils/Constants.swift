@@ -7,6 +7,6 @@
 
 import Firebase
 
-// Akses Firestore dan Akses Entitas Users di Collection
+// Akses Firestore dan Akses Entitas "users" di Collection
 let COLLECTION_USERS = Firestore.firestore().collection("users")
 
