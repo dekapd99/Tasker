@@ -10,6 +10,7 @@
 		AB6701E3285B8B2D00892057 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6701E2285B8B2D00892057 /* CustomSecureField.swift */; };
 		AB6701E5285B8C8200892057 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6701E4285B8C8200892057 /* PasswordSecureField.swift */; };
 		AB6701E7285B91F200892057 /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6701E6285B91F200892057 /* AuthenticateButtonView.swift */; };
+		AB7DD1442860C84600D68627 /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7DD1432860C84600D68627 /* TODOViewModel.swift */; };
 		AB86E83B285B62C10016D165 /* TaskerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E83A285B62C10016D165 /* TaskerApp.swift */; };
 		AB86E83D285B62C10016D165 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E83C285B62C10016D165 /* ContentView.swift */; };
 		AB86E83F285B62C20016D165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB86E83E285B62C20016D165 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		AB6701E2285B8B2D00892057 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		AB6701E4285B8C8200892057 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 		AB6701E6285B91F200892057 /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
+		AB7DD1432860C84600D68627 /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
 		AB86E837285B62C10016D165 /* Tasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB86E83A285B62C10016D165 /* TaskerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskerApp.swift; sourceTree = "<group>"; };
 		AB86E83C285B62C10016D165 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				ABA0F332285F7C94006AF604 /* AuthViewModel.swift */,
+				AB7DD1432860C84600D68627 /* TODOViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				ABC8E9B4285F6C890085BCAF /* Constants.swift in Sources */,
 				AB6701E7285B91F200892057 /* AuthenticateButtonView.swift in Sources */,
 				AB86E857285B834D0016D165 /* CustomTextField.swift in Sources */,
+				AB7DD1442860C84600D68627 /* TODOViewModel.swift in Sources */,
 				AB86E853285B7A9B0016D165 /* BackgroundGradientView.swift in Sources */,
 				AB6701E3285B8B2D00892057 /* CustomSecureField.swift in Sources */,
 				AB86E83B285B62C10016D165 /* TaskerApp.swift in Sources */,
