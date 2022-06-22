@@ -47,6 +47,8 @@
 		ABC8E9B1285F64A80085BCAF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ABC8E9B0285F64A80085BCAF /* FirebaseStorage */; };
 		ABC8E9B4285F6C890085BCAF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8E9B3285F6C890085BCAF /* Constants.swift */; };
 		ABC8E9B7285F6DB00085BCAF /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8E9B6285F6DB00085BCAF /* AppUser.swift */; };
+		ABD1D2272862A12E00143414 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1D2262862A12E00143414 /* SearchBarView.swift */; };
+		ABD1D2292862A8E100143414 /* TODOButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1D2282862A8E100143414 /* TODOButtonStack.swift */; };
 		ABD819DE285E178E0075F5EF /* UserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD819DD285E178E0075F5EF /* UserTextField.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,8 @@
 		ABA0F334285F85EF006AF604 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		ABC8E9B3285F6C890085BCAF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ABC8E9B6285F6DB00085BCAF /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		ABD1D2262862A12E00143414 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		ABD1D2282862A8E100143414 /* TODOButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOButtonStack.swift; sourceTree = "<group>"; };
 		ABD819DD285E178E0075F5EF /* UserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,6 +187,8 @@
 				AB86E852285B7A9B0016D165 /* BackgroundGradientView.swift */,
 				AB86E854285B7CB40016D165 /* LogoView.swift */,
 				AB6701E6285B91F200892057 /* AuthenticateButtonView.swift */,
+				ABD1D2262862A12E00143414 /* SearchBarView.swift */,
+				ABD1D2282862A8E100143414 /* TODOButtonStack.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -321,6 +327,8 @@
 				ABA0F329285F722D006AF604 /* TODO.swift in Sources */,
 				ABA0F335285F85EF006AF604 /* DashboardView.swift in Sources */,
 				ABA0F333285F7C94006AF604 /* AuthViewModel.swift in Sources */,
+				ABD1D2292862A8E100143414 /* TODOButtonStack.swift in Sources */,
+				ABD1D2272862A12E00143414 /* SearchBarView.swift in Sources */,
 				AB86E84C285B78C40016D165 /* LoginView.swift in Sources */,
 				AB6701E5285B8C8200892057 /* PasswordSecureField.swift in Sources */,
 				AB86E83D285B62C10016D165 /* ContentView.swift in Sources */,
