@@ -71,10 +71,28 @@ struct DashboardView: View {
                 VStack{
                     Spacer()
                     HStack {
-                        
+                        Spacer()
+                        Button {
+                            viewModel.showCreateTODOView = true
+                        } label: {
+                            Image(systemName: "plus")
+                                .padding()
+                                .foregroundColor(.white)
+                                .font(.system(size: 30))
+                                .frame(width: 60, height: 60)
+                                .background(Color("LightBlue"))
+                                .cornerRadius(30)
+                        }
+                        .padding(20)
                     }
                 }
             )
+            
+            if viewModel.showCreateTODOView {
+                BlankView()
+                CreateTODOView(user: user, viewModel: viewModel)
+            }
+            
         } // Batas Zstack
         
     }
