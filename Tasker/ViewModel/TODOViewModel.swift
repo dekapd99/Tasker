@@ -16,7 +16,7 @@ class TODOViewModel: ObservableObject {
     @Published var todosFiltered = [TODO]()
     
     init(){
-        loadTODOs()
+        loadTODOs() 
     }
     
     func loadTODOs() {
@@ -51,7 +51,7 @@ class TODOViewModel: ObservableObject {
                                    "description": todo.description,
                                    "TODOType": todo.TODOType,
                                    "completed": todo.completed,
-                                   "ownerUid": todo.id ?? ""]
+                                   "ownerUid": user.id ?? ""]
         
         COLLECTION_USERS.document(user.id ?? "").collection("to-dos").addDocument(data: data) { error in
             if let error = error {
@@ -87,7 +87,7 @@ class TODOViewModel: ObservableObject {
         }
     }
     
-    func uncompleteTODO(todoId: String) {
+    func unCompleteTODO(todoId: String) {
         guard let uid = AuthViewModel.shared.userSession?.uid else { return }
         
         COLLECTION_USERS.document(uid).collection("to-dos").document(todoId).updateData(["completed": false]) { error in
