@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB14E526286367B40092BAB2 /* TODOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB14E525286367B40092BAB2 /* TODOView.swift */; };
+		AB14E52828636D3C0092BAB2 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB14E52728636D3C0092BAB2 /* BlankView.swift */; };
+		AB14E52A28636DF60092BAB2 /* CreateTODOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB14E52928636DF60092BAB2 /* CreateTODOView.swift */; };
+		AB14E52E28636F850092BAB2 /* TODOTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB14E52D28636F850092BAB2 /* TODOTextField.swift */; };
 		AB6701E3285B8B2D00892057 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6701E2285B8B2D00892057 /* CustomSecureField.swift */; };
 		AB6701E5285B8C8200892057 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6701E4285B8C8200892057 /* PasswordSecureField.swift */; };
 		AB6701E7285B91F200892057 /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6701E6285B91F200892057 /* AuthenticateButtonView.swift */; };
@@ -37,6 +41,7 @@
 		ABA0F32F285F7976006AF604 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA0F32E285F7976006AF604 /* GoogleService-Info.plist */; };
 		ABA0F333285F7C94006AF604 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0F332285F7C94006AF604 /* AuthViewModel.swift */; };
 		ABA0F335285F85EF006AF604 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0F334285F85EF006AF604 /* DashboardView.swift */; };
+		ABACC2192863717E005DF6E0 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABACC2182863717E005DF6E0 /* CustomTextEditor.swift */; };
 		ABC8E9A3285F64A80085BCAF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = ABC8E9A2285F64A80085BCAF /* FirebaseAnalytics */; };
 		ABC8E9A5285F64A80085BCAF /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ABC8E9A4285F64A80085BCAF /* FirebaseAnalyticsSwift */; };
 		ABC8E9A7285F64A80085BCAF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ABC8E9A6285F64A80085BCAF /* FirebaseAuth */; };
@@ -50,9 +55,14 @@
 		ABD1D2272862A12E00143414 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1D2262862A12E00143414 /* SearchBarView.swift */; };
 		ABD1D2292862A8E100143414 /* TODOButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1D2282862A8E100143414 /* TODOButtonStack.swift */; };
 		ABD819DE285E178E0075F5EF /* UserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD819DD285E178E0075F5EF /* UserTextField.swift */; };
+		ABE0C5462863645E0086C2AD /* AddTODOLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0C5452863645E0086C2AD /* AddTODOLogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB14E525286367B40092BAB2 /* TODOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOView.swift; sourceTree = "<group>"; };
+		AB14E52728636D3C0092BAB2 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		AB14E52928636DF60092BAB2 /* CreateTODOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTODOView.swift; sourceTree = "<group>"; };
+		AB14E52D28636F850092BAB2 /* TODOTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOTextField.swift; sourceTree = "<group>"; };
 		AB6701E2285B8B2D00892057 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		AB6701E4285B8C8200892057 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 		AB6701E6285B91F200892057 /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
@@ -74,11 +84,13 @@
 		ABA0F32E285F7976006AF604 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ABA0F332285F7C94006AF604 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		ABA0F334285F85EF006AF604 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		ABACC2182863717E005DF6E0 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
 		ABC8E9B3285F6C890085BCAF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ABC8E9B6285F6DB00085BCAF /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 		ABD1D2262862A12E00143414 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		ABD1D2282862A8E100143414 /* TODOButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOButtonStack.swift; sourceTree = "<group>"; };
 		ABD819DD285E178E0075F5EF /* UserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextField.swift; sourceTree = "<group>"; };
+		ABE0C5452863645E0086C2AD /* AddTODOLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTODOLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +168,8 @@
 				AB86E84E285B79770016D165 /* Auth */,
 				AB86E84D285B795A0016D165 /* Component */,
 				ABA0F334285F85EF006AF604 /* DashboardView.swift */,
+				AB14E525286367B40092BAB2 /* TODOView.swift */,
+				AB14E52928636DF60092BAB2 /* CreateTODOView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +203,9 @@
 				AB6701E6285B91F200892057 /* AuthenticateButtonView.swift */,
 				ABD1D2262862A12E00143414 /* SearchBarView.swift */,
 				ABD1D2282862A8E100143414 /* TODOButtonStack.swift */,
+				ABE0C5452863645E0086C2AD /* AddTODOLogo.swift */,
+				AB14E52728636D3C0092BAB2 /* BlankView.swift */,
+				ABACC2182863717E005DF6E0 /* CustomTextEditor.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -210,6 +227,7 @@
 				AB6701E2285B8B2D00892057 /* CustomSecureField.swift */,
 				AB6701E4285B8C8200892057 /* PasswordSecureField.swift */,
 				ABD819DD285E178E0075F5EF /* UserTextField.swift */,
+				AB14E52D28636F850092BAB2 /* TODOTextField.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -319,6 +337,8 @@
 			files = (
 				ABC8E9B7285F6DB00085BCAF /* AppUser.swift in Sources */,
 				AB86E85A285B87C40016D165 /* EmailTextField.swift in Sources */,
+				AB14E52A28636DF60092BAB2 /* CreateTODOView.swift in Sources */,
+				AB14E526286367B40092BAB2 /* TODOView.swift in Sources */,
 				AB86E850285B79AB0016D165 /* SignupView.swift in Sources */,
 				ABA0F32D285F75CE006AF604 /* MockData.swift in Sources */,
 				ABD819DE285E178E0075F5EF /* UserTextField.swift in Sources */,
@@ -326,10 +346,12 @@
 				AB86E855285B7CB40016D165 /* LogoView.swift in Sources */,
 				ABA0F329285F722D006AF604 /* TODO.swift in Sources */,
 				ABA0F335285F85EF006AF604 /* DashboardView.swift in Sources */,
+				AB14E52E28636F850092BAB2 /* TODOTextField.swift in Sources */,
 				ABA0F333285F7C94006AF604 /* AuthViewModel.swift in Sources */,
 				ABD1D2292862A8E100143414 /* TODOButtonStack.swift in Sources */,
 				ABD1D2272862A12E00143414 /* SearchBarView.swift in Sources */,
 				AB86E84C285B78C40016D165 /* LoginView.swift in Sources */,
+				ABACC2192863717E005DF6E0 /* CustomTextEditor.swift in Sources */,
 				AB6701E5285B8C8200892057 /* PasswordSecureField.swift in Sources */,
 				AB86E83D285B62C10016D165 /* ContentView.swift in Sources */,
 				ABC8E9B4285F6C890085BCAF /* Constants.swift in Sources */,
@@ -337,8 +359,10 @@
 				AB86E857285B834D0016D165 /* CustomTextField.swift in Sources */,
 				AB7DD1442860C84600D68627 /* TODOViewModel.swift in Sources */,
 				AB86E853285B7A9B0016D165 /* BackgroundGradientView.swift in Sources */,
+				AB14E52828636D3C0092BAB2 /* BlankView.swift in Sources */,
 				AB6701E3285B8B2D00892057 /* CustomSecureField.swift in Sources */,
 				AB86E83B285B62C10016D165 /* TaskerApp.swift in Sources */,
+				ABE0C5462863645E0086C2AD /* AddTODOLogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

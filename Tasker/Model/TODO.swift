@@ -13,7 +13,7 @@ struct TODO: Identifiable, Decodable {
     
     // @DocumentID -> Match id dengan id yang ada di Firebase diikuti dengan Variabel dibawahnya
     @DocumentID var id: String? = UUID().uuidString
-    let ownerID: String
+    let ownerUid: String
     var title: String
     var description: String
     var TODOType: String
