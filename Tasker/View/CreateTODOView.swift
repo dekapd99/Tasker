@@ -48,7 +48,8 @@ struct CreateTODOView: View {
                     CancelTODOButton()
                 }
             }
-
+            .padding(.bottom, 10)           
+            
             Spacer()
             
         } // Batas VStack
