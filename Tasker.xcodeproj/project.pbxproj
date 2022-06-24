@@ -142,10 +142,10 @@
 		AB86E839285B62C10016D165 /* Tasker */ = {
 			isa = PBXGroup;
 			children = (
-				ABC8E9B2285F6C690085BCAF /* Utils */,
 				AB86E84A285B77BC0016D165 /* Model */,
 				AB86E848285B77AF0016D165 /* View */,
 				AB86E849285B77B60016D165 /* ViewModel */,
+				AB86E84D285B795A0016D165 /* Component */,
 				AB86E83C285B62C10016D165 /* ContentView.swift */,
 				AB86E83A285B62C10016D165 /* TaskerApp.swift */,
 				AB86E83E285B62C20016D165 /* Assets.xcassets */,
@@ -166,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				AB86E84E285B79770016D165 /* Auth */,
-				AB86E84D285B795A0016D165 /* Component */,
 				ABA0F334285F85EF006AF604 /* DashboardView.swift */,
 				AB14E525286367B40092BAB2 /* TODOView.swift */,
 				AB14E52928636DF60092BAB2 /* CreateTODOView.swift */,
@@ -186,6 +185,7 @@
 		AB86E84A285B77BC0016D165 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ABC8E9B3285F6C890085BCAF /* Constants.swift */,
 				ABC8E9B6285F6DB00085BCAF /* AppUser.swift */,
 				ABA0F328285F722D006AF604 /* TODO.swift */,
 				ABA0F32A285F7366006AF604 /* SelectedButton.swift */,
@@ -198,13 +198,13 @@
 			isa = PBXGroup;
 			children = (
 				AB86E858285B879E0016D165 /* TextFields */,
-				AB86E852285B7A9B0016D165 /* BackgroundGradientView.swift */,
-				AB86E854285B7CB40016D165 /* LogoView.swift */,
-				AB6701E6285B91F200892057 /* AuthenticateButtonView.swift */,
 				ABD1D2262862A12E00143414 /* SearchBarView.swift */,
+				AB86E852285B7A9B0016D165 /* BackgroundGradientView.swift */,
 				ABD1D2282862A8E100143414 /* TODOButtonStack.swift */,
 				ABE0C5452863645E0086C2AD /* AddTODOLogo.swift */,
+				AB86E854285B7CB40016D165 /* LogoView.swift */,
 				AB14E52728636D3C0092BAB2 /* BlankView.swift */,
+				AB6701E6285B91F200892057 /* AuthenticateButtonView.swift */,
 				ABACC2182863717E005DF6E0 /* CustomTextEditor.swift */,
 			);
 			path = Component;
@@ -230,14 +230,6 @@
 				AB14E52D28636F850092BAB2 /* TODOTextField.swift */,
 			);
 			path = TextFields;
-			sourceTree = "<group>";
-		};
-		ABC8E9B2285F6C690085BCAF /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				ABC8E9B3285F6C890085BCAF /* Constants.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
