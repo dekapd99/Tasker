@@ -142,12 +142,12 @@
 		AB86E839285B62C10016D165 /* Tasker */ = {
 			isa = PBXGroup;
 			children = (
-				AB86E83A285B62C10016D165 /* TaskerApp.swift */,
-				AB86E83C285B62C10016D165 /* ContentView.swift */,
 				ABC8E9B2285F6C690085BCAF /* Utils */,
 				AB86E84A285B77BC0016D165 /* Model */,
 				AB86E848285B77AF0016D165 /* View */,
 				AB86E849285B77B60016D165 /* ViewModel */,
+				AB86E83C285B62C10016D165 /* ContentView.swift */,
+				AB86E83A285B62C10016D165 /* TaskerApp.swift */,
 				AB86E83E285B62C20016D165 /* Assets.xcassets */,
 				AB86E840285B62C20016D165 /* Preview Content */,
 			);
