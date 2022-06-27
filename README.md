@@ -9,7 +9,9 @@ Aplikasi Tasker adalah aplikasi iOS To Do List (Advanced Level) yang dibuat meng
 
 ### Preview
 <p align="center">
-    <a href="#" target="_blank"><img src="1.png" width="auto"></a>
+  <a href="#" target="_blank"><img src="1.png" width="200"></a>
+  <a href="#" target="_blank"><img src="2.png" width="200"></a>
+  <a href="#" target="_blank"><img src="3.png" width="200"></a>
 </p>
 
 <!-- ABOUT THE FILE & FOLDER STRUCTURE -->
@@ -21,38 +23,38 @@ Berikut struktur file dan folder pada Tasker:
     ├── ContentView.swift          # Tampilan Beranda Aplikasi
     ├── Assets                     # Aset Logo dan Warna
     ├── Component                  # Component: Berisikan Recyclable Element (Button, Search Bar, dan Text Field)
-    │   ├── SearchBarView.swift           # Berisikan 
-    │   ├── BackgroundGradientView.swift  # Berisikan 
-    │   ├── TODOButtonStack.swift.        # Berisikan 
-    │   ├── AddTODOLogo.swift             # Berisikan 
-    │   ├── LogoView.swift                # Berisikan 
-    │   ├── BlankView.swift               # Berisikan 
-    │   ├── AuthenticateButtonView.swift  # Berisikan 
-    │   ├── CustomTextEditor.swift        # Berisikan 
-    │   └── TextFields                    # Berisikan 
-    │       ├── CustomTextField.swift     # Berisikan 
-    │       ├── EmailTextField.swift      # Berisikan 
-    │       ├── CustomSecureField.swift   # Berisikan 
-    │       ├── PasswordSecureField.swift # Berisikan 
-    │       ├── UserTextField.swift       # Berisikan 
-    │       └── TODOTextField.swift       # Berisikan 
+    │   ├── SearchBarView.swift           # Berisikan UI Forms Search Bar
+    │   ├── BackgroundGradientView.swift  # Berisikan UI Background Gradient Color 
+    │   ├── TODOButtonStack.swift.        # Berisikan UI TODO Button Horizontal Stacks 
+    │   ├── AddTODOLogo.swift             # Berisikan Tampilan UI Ketika TODO List Kosong 
+    │   ├── LogoView.swift                # Berisikan Tampilan UI Logo di Halaman Login dan Register 
+    │   ├── BlankView.swift               # Berisikan Tampilan Overlay ketika Pop Up Create TODO
+    │   ├── AuthenticateButtonView.swift  # Berisikan UI Tombol Auth (Login & Register) 
+    │   ├── CustomTextEditor.swift        # Berisikan UI Forms TODO Descriptions 
+    │   └── TextFields                    # Component -> TextFields: Berisikan Placeholder Custom TextFields 
+    │       ├── CustomTextField.swift     # Berisikan Custom Text Field untuk Input Segala Jenis Forms 
+    │       ├── EmailTextField.swift      # Berisikan UI Forms Email Text Field 
+    │       ├── CustomSecureField.swift   # Berisikan Custom Secure Field khusus untuk Input Forms Password 
+    │       ├── PasswordSecureField.swift # Berisikan UI Forms Password Text Field 
+    │       ├── UserTextField.swift       # Berisikan UI Forms User Text Field untuk Input Data Pribadi User 
+    │       └── TODOTextField.swift       # Berisikan UI Forms TODO User Field untuk Input Data Title TODO 
     │
     ├── Model                     # Model: Firebase Data Declaration (Collection)
-    │   ├── Constant.swift        # Berisikan 
-    │   ├── AppUser.swift         # Berisikan 
-    │   ├── TODO.swift            # Berisikan 
-    │   ├── SelectedButton.swift  # Berisikan
-    │   └── MockData.swift        # Berisikan 
+    │   ├── Constant.swift        # Berisikan Akses Firestore dan Akses Entitas "users" di Collection
+    │   ├── AppUser.swift         # Berisikan Data Declaration untuk Informasi Users 
+    │   ├── TODO.swift            # Berisikan Data Declaration untuk Informasi TODO 
+    │   ├── SelectedButton.swift  # Berisikan All Case Category dari TODO
+    │   └── MockData.swift        # Berisikan data Dummy di Preview SwiftUI
     │
     ├── ViewModel                # ViewModel: Fungsi CRUD (TODO & Auth)
-    │   ├── AuthViewModel.swift  # Berisikan 
-    │   └── TODOViewModel.swift  # Berisikan 
+    │   ├── AuthViewModel.swift  # Berisikan Fungsi Login / Register / Sign Out 
+    │   └── TODOViewModel.swift  # Berisikan Fungsi Load, Create, Delete, Complete, & Uncomplete TODO 
     │
     └── View                      # View: Controller UI & Frontend Related (Show & Get)
         ├── DashboardView.swift   # Berisikan Tampilan Dashboard
         ├── TODOView.swift        # Berisikan Tampilan TODO (Card)
         ├── CreateTODOView.swift  # Berisikan Tampilan Pop Up Create TODO
-        └── Auth                  
+        └── Auth                  # View -> Auth: Berisikan Tampilan Halaman Autentikasi User
             ├── LoginView.swift   # Berisikan Tampilan Halaman Login
             └── SignupView.swift  # Berisikan Tampilan Halaman Register 
 
