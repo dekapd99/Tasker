@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Berisikan Tampilan Halaman Register
 struct SignupView: View {
     
     @State var firstName = ""

@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+// Berisikan UI TODO Button Horizontal Stacks
 struct TODOButtonStack: View {
     
     @ObservedObject var viewModel: TODOViewModel
     
-    var body: some View {
+    var body: some View { // Body: UI Layout
         
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Berisikan Tampilan Halaman Login
 struct LoginView: View {
     
     @State var email = ""

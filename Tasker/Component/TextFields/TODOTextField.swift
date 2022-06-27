@@ -7,12 +7,15 @@
 
 import SwiftUI
 
+// Berisikan UI Forms TODO User Field untuk Input Data Title TODO
 struct TODOTextField: View {
     
-    @Binding var text: String
-    let placeholder: String
+    @Binding var text: String // Property Wrapper yang dapat Read / Write
+    let placeholder: String // Placeholder Text
     
-    var body: some View {
+    var body: some View { // Body: UI Layout
+        
+        // Panggil CustomTextField
         CustomTextField(text: $text, placeholder: Text(placeholder), imageName: "checkmark.square", foregroundColor: .gray)
             .padding()
             .background(Color(.systemGray6))

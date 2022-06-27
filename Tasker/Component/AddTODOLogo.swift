@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+// Berisikan Tampilan UI Ketika TODO List Kosong
 struct AddTODOLogo: View {
     
     @Environment(\.colorScheme) var colorScheme
     
-    var body: some View {
+    var body: some View { // Body: UI Layout
         
         VStack {
             Image("LoginLogo")

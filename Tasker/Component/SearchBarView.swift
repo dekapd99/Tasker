@@ -7,12 +7,13 @@
 
 import SwiftUI
 
+// Berisikan UI Forms Search Bar
 struct SearchBarView: View {
     
-    @Binding var searchText: String
-    @State var isSearching = false
+    @Binding var searchText: String // Property Wrapper yang dapat Read / Write
+    @State var isSearching = false // is Searching Status ? Boolean
     
-    var body: some View {
+    var body: some View { // Body: UI Layout
         
         HStack {
             TextField("Search TODO", text: $searchText)

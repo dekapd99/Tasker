@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Berisikan Tampilan Halaman Dashboard (Beranda)
 struct DashboardView: View {
     
     let user: AppUser

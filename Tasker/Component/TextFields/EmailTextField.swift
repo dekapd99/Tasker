@@ -7,12 +7,14 @@
 
 import SwiftUI
 
+// Berisikan UI Forms Email Text Field
 struct EmailTextField: View {
     
-    @Binding var text: String
+    @Binding var text: String // Property Wrapper yang dapat Read / Write
     
-    var body: some View {
+    var body: some View { // Body: UI Layout
         
+        // Panggil CustomTextField
         CustomTextField(text: $text, placeholder: Text("Email"), imageName: "envelope")
             .padding()
             .background(Color(.init(white: 1, alpha: 0.15)))
