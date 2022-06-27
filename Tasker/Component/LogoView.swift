@@ -7,8 +7,9 @@
 
 import SwiftUI
 
+// Berisikan Tampilan UI Logo di Halaman Login dan Register
 struct LogoView: View {
-    var body: some View {
+    var body: some View { // Body: UI Layout
         
         VStack {
             Image("LoginLogo")

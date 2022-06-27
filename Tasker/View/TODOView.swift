@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Berisikan Tampilan TODO (Card)
 struct TODOView: View {
     
     var todo: TODO

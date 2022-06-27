@@ -7,8 +7,10 @@
 
 import SwiftUI
 
+// Berisikan Tampilan UI Blank ketika TODO List Kosong
 struct BlankView: View {
-    var body: some View {
+    var body: some View { // Body: UI Layout
+        
         VStack {
             Spacer()
         }

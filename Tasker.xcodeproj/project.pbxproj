@@ -25,6 +25,7 @@
 		AB86E855285B7CB40016D165 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E854285B7CB40016D165 /* LogoView.swift */; };
 		AB86E857285B834D0016D165 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E856285B834D0016D165 /* CustomTextField.swift */; };
 		AB86E85A285B87C40016D165 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86E859285B87C40016D165 /* EmailTextField.swift */; };
+		AB92D43028697E4100607C1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB92D42F28697E4100607C1D /* GoogleService-Info.plist */; };
 		ABA0F315285F6F5C006AF604 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = ABA0F314285F6F5C006AF604 /* FirebaseAnalytics */; };
 		ABA0F317285F6F5C006AF604 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ABA0F316285F6F5C006AF604 /* FirebaseAnalyticsSwift */; };
 		ABA0F319285F6F5C006AF604 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ABA0F318285F6F5C006AF604 /* FirebaseAuth */; };
@@ -38,7 +39,6 @@
 		ABA0F329285F722D006AF604 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0F328285F722D006AF604 /* TODO.swift */; };
 		ABA0F32B285F7366006AF604 /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0F32A285F7366006AF604 /* SelectedButton.swift */; };
 		ABA0F32D285F75CE006AF604 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0F32C285F75CE006AF604 /* MockData.swift */; };
-		ABA0F32F285F7976006AF604 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA0F32E285F7976006AF604 /* GoogleService-Info.plist */; };
 		ABA0F333285F7C94006AF604 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0F332285F7C94006AF604 /* AuthViewModel.swift */; };
 		ABA0F335285F85EF006AF604 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0F334285F85EF006AF604 /* DashboardView.swift */; };
 		ABACC2192863717E005DF6E0 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABACC2182863717E005DF6E0 /* CustomTextEditor.swift */; };
@@ -78,10 +78,10 @@
 		AB86E854285B7CB40016D165 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		AB86E856285B834D0016D165 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		AB86E859285B87C40016D165 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		AB92D42F28697E4100607C1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ABA0F328285F722D006AF604 /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		ABA0F32A285F7366006AF604 /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
 		ABA0F32C285F75CE006AF604 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
-		ABA0F32E285F7976006AF604 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ABA0F332285F7C94006AF604 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		ABA0F334285F85EF006AF604 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		ABACC2182863717E005DF6E0 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		AB86E82E285B62C10016D165 = {
 			isa = PBXGroup;
 			children = (
-				ABA0F32E285F7976006AF604 /* GoogleService-Info.plist */,
+				AB92D42F28697E4100607C1D /* GoogleService-Info.plist */,
 				AB86E839285B62C10016D165 /* Tasker */,
 				AB86E838285B62C10016D165 /* Products */,
 			);
@@ -223,8 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				AB86E856285B834D0016D165 /* CustomTextField.swift */,
-				AB86E859285B87C40016D165 /* EmailTextField.swift */,
 				AB6701E2285B8B2D00892057 /* CustomSecureField.swift */,
+				AB86E859285B87C40016D165 /* EmailTextField.swift */,
 				AB6701E4285B8C8200892057 /* PasswordSecureField.swift */,
 				ABD819DD285E178E0075F5EF /* UserTextField.swift */,
 				AB14E52D28636F850092BAB2 /* TODOTextField.swift */,
@@ -316,7 +316,7 @@
 			files = (
 				AB86E842285B62C20016D165 /* Preview Assets.xcassets in Resources */,
 				AB86E83F285B62C20016D165 /* Assets.xcassets in Resources */,
-				ABA0F32F285F7976006AF604 /* GoogleService-Info.plist in Resources */,
+				AB92D43028697E4100607C1D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

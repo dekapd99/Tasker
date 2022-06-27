@@ -9,7 +9,7 @@ import SwiftUI
 import Firebase
 import FirebaseAuth
 
-// ViewModel buat Fungsi Login / Register
+// Berisikan Fungsi Login / Register / Sign Out
 class AuthViewModel: ObservableObject {
     
     @Published var userSession: User? // Firebase User

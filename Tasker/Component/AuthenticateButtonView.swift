@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+// Berisikan UI Tombol Auth (Login & Register)
 struct AuthenticateButtonView: View {
     
     let text: String
     
-    var body: some View {
+    var body: some View { // Body: UI Layout
         
         Text(text)
             .font(.headline)

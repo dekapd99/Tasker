@@ -8,6 +8,7 @@
 import SwiftUI
 import Firebase
 
+// Berisikan Fungsi Load, Create, Delete, Complete, & Uncomplete TODO
 class TODOViewModel: ObservableObject {
     
     @Published var todos = [TODO]()

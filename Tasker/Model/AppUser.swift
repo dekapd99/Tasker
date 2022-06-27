@@ -7,6 +7,7 @@
 
 import FirebaseFirestoreSwift
 
+// Berisikan Data Declaration untuk Informasi Users
 struct AppUser: Identifiable, Decodable {
     
     // @DocumentID -> Match id dengan id yang ada di Firebase diikuti dengan Variabel dibawahnya

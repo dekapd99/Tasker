@@ -7,12 +7,13 @@
 
 import SwiftUI
 
+// Berisikan UI Forms TODO Descriptions
 struct CustomTextEditor: View {
     
-    @Binding var text: String
-    let placeholder: Text
-    let imageName: String
-    var foregroundColor: Color?
+    @Binding var text: String // Property Wrapper yang dapat Read / Write
+    let placeholder: Text // Placeholder Text
+    let imageName: String // Placeholder Custom Image System (Icon)
+    var foregroundColor: Color? // Placeholder foregroundColor
     
     @Environment(\.colorScheme) var colorScheme
     
@@ -26,7 +27,8 @@ struct CustomTextEditor: View {
         UITextView.appearance().backgroundColor = .clear
     }
     
-    var body: some View {
+    var body: some View { // Body: UI Layout
+        
         ZStack(alignment: .leading) {
             VStack {
                 HStack {

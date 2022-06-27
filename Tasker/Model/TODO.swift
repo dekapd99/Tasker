@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 import FirebaseFirestoreSwift
 
+// Berisikan Data Declaration untuk Informasi TODO
 struct TODO: Identifiable, Decodable {
     
     // @DocumentID -> Match id dengan id yang ada di Firebase diikuti dengan Variabel dibawahnya

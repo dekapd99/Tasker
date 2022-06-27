@@ -7,12 +7,14 @@
 
 import SwiftUI
 
+// Berisikan Custom Secure Field khusus untuk Input Forms Password
 struct CustomSecureField: View {
     
-    @Binding var text: String
-    let placeholder: Text
+    @Binding var text: String // Property Wrapper yang dapat Read / Write
+    let placeholder: Text // Placeholder Text
     
-    var body: some View {
+    var body: some View { // Body: UI Layout
+        
         ZStack(alignment: .leading) {
             if text.isEmpty {
                 placeholder
@@ -27,6 +29,7 @@ struct CustomSecureField: View {
                     .frame(width: 20, height: 20)
                     .foregroundColor(.white)
                 
+                // Secure Text Input by User
                 SecureField("", text: $text)
                     .autocapitalization(.none)
             }

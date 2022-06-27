@@ -7,15 +7,16 @@
 
 import SwiftUI
 
+// Berisikan Custom Text Field untuk Input Segala Jenis Forms
 struct CustomTextField: View {
     
     @Binding var text: String // Property Wrapper yang dapat Read / Write
-    let placeholder: Text
-    let imageName: String
-    var foregroundColor: Color?
+    let placeholder: Text // Placeholder Text
+    let imageName: String // Placeholder Custom Image System (Icon)
+    var foregroundColor: Color? // Placeholder foregroundColor
     
-    var body: some View {
-        
+    var body: some View { // Body: UI Layout
+
         ZStack(alignment: .leading) {
             if text.isEmpty {
                 placeholder
@@ -34,7 +35,6 @@ struct CustomTextField: View {
                     .autocapitalization(.none)
             }
         }
-        
     }
 }
 
