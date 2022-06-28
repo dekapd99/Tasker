@@ -88,7 +88,13 @@ git clone https://github.com/dekapd99/Tasker.git
 2. Jika sudah silahkan buka Project di Xcode
 3. Build Setting > Always Embed Swift Standard Libraries (Set to YES) & Build Active Architure Only (Set to YES)
 4. Firebase Swift Packages Used (Firebase Analytics, Firebase Analytics Swift, Firebase Auth, Firebase Crashlytics, Firebase Database, Firebase Database Swift, Firebase Firestore, Firebase Firestore Swift, Firebase Functions, Firebase Storage)
-5. Build & Run
+5. Buka website Firebase dan lakukan Login, kemudian klik Go To Console dan Add Projects. Pastikan namanya adalah "Tasker" dan matikan Google Analytic karena tidak diperlukan.
+6. Klik icon iOS Apple pada halaman project iStockery. Dan pastikan untuk masukkan nama pada Bundle ID contohnya seperti ini ".com.deka.Tasker".
+7. Setelah itu, Download Config File yang diberikan oleh Firebase dan klik Next. Setelah itu, Copy Dependencies / Package URL yang diberikan.
+8. Buka Xcode, klik General ubah dan sesuaikan nama Bundle Identifier seperti di Project Firebase.
+9. Klik File > Add Packages. Paste URL Dependencies / Package pada kolom Search. Ubah Depedency Rule menjadi Branch - master dan klik Add Package.
+10. Drag & Drop Config File (GoogleService-Info.plist) yang diberikan oleh Firebase ke dalam Project Navigation.
+11. Build & Run
 
 <!-- What Kind of License? -->
 ## License
