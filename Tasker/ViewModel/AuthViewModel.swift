@@ -13,11 +13,11 @@ import FirebaseAuth
 class AuthViewModel: ObservableObject {
     
     @Published var userSession: User? // Firebase User
-    @Published var currentUser: AppUser?
+    @Published var currentUser: AppUser? // Default Current User
     
-    static let shared = AuthViewModel()
+    static let shared = AuthViewModel() // Shared VM
     
-    init() {
+    init() { // Initialize user Session & Fetch User
         userSession = Auth.auth().currentUser
         fetchUser()
     }
@@ -43,8 +43,8 @@ class AuthViewModel: ObservableObject {
             }
             // Kalo Berhasil Login
             guard let user = result?.user else { return }
-            self.userSession = user
-            self.fetchUser()
+            self.userSession = user // Get user session
+            self.fetchUser() // Fetch User Login dengan User yang baru saja login
         }
     }
     
@@ -64,9 +64,9 @@ class AuthViewModel: ObservableObject {
                         "email": email]
             // Upload data ke dalam user uid
             COLLECTION_USERS.document(user.uid).setData(data) { _ in
-                print("Successfully Uploaded Data")
-                self.userSession = user
-                self.fetchUser()
+                print("Berhasil Register Akun Baru")
+                self.userSession = user // Get user session
+                self.fetchUser() // Fetch User Login dengan User yang baru saja Register
             }
         }
     }

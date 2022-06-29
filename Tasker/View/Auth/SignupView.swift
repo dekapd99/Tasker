@@ -30,8 +30,8 @@ struct SignupView: View {
                 
                 VStack(spacing: 20) {
                     
-                    UserTextField(text: $firstName, placeholder: "First Name")
-                    UserTextField(text: $lastName, placeholder: "Last Name")
+                    UserTextField(text: $firstName, placeholder: "Nama Depan")
+                    UserTextField(text: $lastName, placeholder: "Nama Belakang")
                     EmailTextField(text: $email)
                     PasswordSecureField(text: $password, placeholder: "Password")
                     PasswordSecureField(text: $confirmPassword, placeholder: "Confirm Password")

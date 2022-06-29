@@ -15,18 +15,17 @@ struct AddTODOLogo: View {
     var body: some View { // Body: UI Layout
         
         VStack {
-            Image("LoginLogo")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 250, height: 70)
-                .background(colorScheme == .dark ? .clear : .black)
+//            Image("LoginLogo")
+//                .resizable()
+//                .scaledToFit()
+//                .frame(width: 250, height: 70)
+//                .background(colorScheme == .dark ? .clear : .black)
                 
-            Text("Add Your First TODO")
+            Text("Kosong")
                 .foregroundColor(colorScheme == .dark ? .white : .black)
                 .font(.system(size: 25))
                 .fontWeight(.semibold)
         }
-        
     }
 }
 

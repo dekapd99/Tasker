@@ -22,7 +22,6 @@ struct LogoView: View {
                 .font(.system(size: 25))
                 .fontWeight(.bold)
         }
-        
     }
 }
 

@@ -15,7 +15,7 @@ struct TODOButtonStack: View {
     var body: some View { // Body: UI Layout
         
         ScrollView(.horizontal, showsIndicators: false) {
-            HStack {
+            HStack { // Kumpulan Button Category
                 TODOButton(buttonType: .all, viewModel: viewModel)
                 
                 TODOButton(buttonType: .groceries, viewModel: viewModel)
@@ -41,6 +41,7 @@ struct TODOButtonStack_Previews: PreviewProvider {
     }
 }
 
+// Struct Toggle Category
 struct TODOButton: View {
     let buttonType: SelectedButton
     @ObservedObject var viewModel: TODOViewModel
@@ -48,7 +49,7 @@ struct TODOButton: View {
     var body: some View {
         Button {
             viewModel.filterTODOSelected = buttonType
-            
+            // Jika filterTODOSelected tidak = All maka tampilkan Filter yang dipilih
             if viewModel.filterTODOSelected != .all {
                 viewModel.todosFiltered = viewModel.todos.filter { todo in
                     return todo.TODOType == viewModel.filterTODOSelected.rawValue
@@ -57,14 +58,12 @@ struct TODOButton: View {
                 viewModel.todosFiltered = viewModel.todos
             }
             
-        } label: {
+        } label: { // Label berdasarkan value yang dibuat di Model SelectedButton
             Text("\(buttonType.getValue())")
                 .foregroundColor(viewModel.filterTODOSelected == buttonType ? .white : Color(.systemGray))
                 .frame(width: 100, height: 40)
                 .background(buttonType == viewModel.filterTODOSelected ? Color("LightBlue") : Color(.systemGray6))
                 .cornerRadius(20)
         }
-
     }
-    
 }
