@@ -16,10 +16,10 @@ struct SearchBarView: View {
     var body: some View { // Body: UI Layout
         
         HStack {
-            TextField("Search TODO", text: $searchText)
+            TextField("Cari...", text: $searchText)
                 // Custom Modifier searchTextFieldStyle()
                 .searchTextFieldStyle()
-                .onTapGesture(perform: {
+                .onTapGesture(perform: { // Ketika di Klik
                     isSearching = true
                 })
                 .overlay(
@@ -40,6 +40,7 @@ struct SearchBarView: View {
                 )
                 .transition(.move(edge: .trailing))
             
+            // Kondisi ketika sedang menggunakan kolom search
             if isSearching {
                 Button(action: {
                     isSearching = false
@@ -57,7 +58,6 @@ struct SearchBarView: View {
                 .transition(.move(edge: .trailing))
             }
         }
-        
     }
 }
 
@@ -70,6 +70,7 @@ struct SearchBarView_Previews: PreviewProvider {
     }
 }
 
+// Struct searchTextFieldStyle()
 struct SearchTextFieldModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
@@ -82,6 +83,7 @@ struct SearchTextFieldModifier: ViewModifier {
     }
 }
 
+// Extension Custom Modifier searchTextFieldStyle()
 extension View {
     func searchTextFieldStyle() -> some View {
         modifier(SearchTextFieldModifier())

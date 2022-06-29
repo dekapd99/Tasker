@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// Berisikan Tampilan UI Blank ketika TODO List Kosong
+// Berisikan Tampilan Overlay ketika Pop Up Create TODO
 struct BlankView: View {
     var body: some View { // Body: UI Layout
         
@@ -18,7 +18,7 @@ struct BlankView: View {
         .background(Color.black)
         .opacity(0.5)
         .edgesIgnoringSafeArea(.all)
-        .onTapGesture {
+        .onTapGesture { // No Action ketika BlankView di Klik
             
         }
     }

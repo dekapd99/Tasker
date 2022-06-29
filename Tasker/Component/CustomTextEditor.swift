@@ -72,7 +72,7 @@ struct CustomTextEditor_Previews: PreviewProvider {
         ZStack {
             Color.black
                 .ignoresSafeArea()
-            CustomTextEditor(text: .constant(""), placeholder: Text("Description"), imageName: "line.3.horizontal", foregroundColor: .gray)
+            CustomTextEditor(text: .constant(""), placeholder: Text("Deskripsi"), imageName: "line.3.horizontal", foregroundColor: .gray)
         }
     }
 }
