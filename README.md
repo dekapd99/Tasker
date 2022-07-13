@@ -1,10 +1,9 @@
-# Tasker
-
 <!-- ABOUT THE PROJECT -->
 <p align="center">
   <a href="#" target="_blank"><img src="Tasker.png" width="200"></a>
 </p>
 
+# Tasker
 Aplikasi Tasker adalah aplikasi iOS To Do List (Advanced Level) yang dibuat menggunakan Firebase (Firestore, Firestore Swift, Auth, Database, Function, dan Storage), SwiftUI, dan MVVM Design Pattern.
 
 ### Preview
