@@ -92,7 +92,8 @@ git clone https://github.com/dekapd99/Tasker.git
 7. Drag & Drop Config File (GoogleService-Info.plist) yang diberikan oleh Firebase ke dalam Project Navigation.
 8. Pastikan Cek: Build Setting > Always Embed Swift Standard Libraries (Set to YES) & Build Active Architure Only (Set to YES).
 9. Kembali ke Firebase Console > Buka Side Bar > Klik Build > Firestore Database > Klik Create Database > Start Test Mode & Set Cloud Firestore sesuai Default
-10. Build & Run
+10. Kembali ke Firebase Console > Build > Authentication > Sign-in Method > Add New Provider (Enable Email & Password)
+11. Build & Run
 
 <!-- What Kind of License? -->
 ## License
